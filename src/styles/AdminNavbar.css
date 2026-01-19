@@ -1,0 +1,54 @@
+.admin-navbar {
+  width: 240px;
+  height: 100vh;
+  background: #111827;
+  color: white;
+  padding: 25px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.logo {
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  display: block;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.nav-item:hover {
+  background: #1f2933;
+  color: white;
+}
+
+.nav-item.active {
+  background: #2563eb;
+  color: white;
+}
+
+.logout-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 25px;
+  width: calc(100% - 50px);
+  padding: 10px;
+  border: none;
+  background: #ef4444;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+}

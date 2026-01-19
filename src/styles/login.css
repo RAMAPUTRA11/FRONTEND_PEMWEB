@@ -1,0 +1,111 @@
+/* background */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    120deg,
+    #0f172a,
+    #111827,
+    #020617
+  );
+  background-size: 400% 400%;
+  animation: bgMove 12s ease infinite;
+}
+
+/* animasi background */
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* card putih glow */
+.login-card {
+  width: 340px;
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 14px;
+  box-shadow:
+    0 0 20px rgba(255, 255, 255, 0.35),
+    0 0 60px rgba(255, 255, 255, 0.15);
+  animation: fadeUp 0.8s ease;
+}
+
+/* animasi masuk */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #111;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.3s;
+}
+
+.login-card input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99,102,241,0.25);
+}
+
+/* tombol */
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(99,102,241,0.4);
+}
+
+/* register */
+.register-text {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+}
+
+.register-text span {
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register-text span:hover {
+  text-decoration: underline;
+}
+
