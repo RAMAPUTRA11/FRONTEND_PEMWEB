@@ -6,7 +6,7 @@ import TopUp from "./pages/TopUp";
 import Withdraw from "./pages/Withdraw";
 import History from "./pages/History";
 import AdminWithdraw from "./pages/AdminWithdraw";
-import AdminTopUp from "./pages/AdminTopup";
+import AdminTopup from "./pages/AdminTopUp";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminHistory from "./pages/AdminHistory";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -25,7 +25,7 @@ function App() {
           <Route path="/withdraw" element={<Withdraw />} />
           <Route path="/history" element={<History />} />
           <Route path="/admin/withdraw" element={<AdminWithdraw />} />
-          <Route path="/admin/topup" element={<AdminTopUp />} />
+          <Route path="/admin/topup" element={<AdminTopup />} />
           <Route path="/admin/dashboard" element={<AdminDashboard />} />
           <Route path="/admin/history" element={<AdminHistory />} />
         </Route>
