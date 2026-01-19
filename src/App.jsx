@@ -6,7 +6,7 @@ import TopUp from "./pages/TopUp";
 import Withdraw from "./pages/Withdraw";
 import History from "./pages/History";
 import AdminWithdraw from "./pages/AdminWithdraw";
-import AdminTopup from "./pages/AdminTopUp";
+import AdminTopup from "./pages/AdminTopup";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminHistory from "./pages/AdminHistory";
 import ProtectedRoute from "./components/ProtectedRoute";
